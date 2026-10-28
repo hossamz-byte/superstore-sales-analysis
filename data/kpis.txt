@@ -1,0 +1,7 @@
+Total sales: 2261255.41
+Orders: 4922
+Customers: 793
+Avg order value: 459.42
+Avg shipping days: 3.96
+Top category: Technology
+Top region: West
