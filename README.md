@@ -33,4 +33,32 @@ Python (pandas, matplotlib, seaborn) · SQL Server · Tableau
 ## Tableau story
 The story walks through the results in this order:
 1. **Title:** Superstore Sales 2015–2018: What Drives Our Revenue?
-2. **Recap of totals:** sales, orders,
+2. **Recap of totals:** sales, orders, customers and average order value.
+3. **Growth:** sales fell 4.2% in 2016, then grew 30.6% in 2017 and 20.3% in 2018.
+4. **Regions:** West and East make up 61% of sales.
+5. **Forecast 2019:** all categories trend up, but the forecast is flat with wide ranges, so it is a rough estimate.
+6. **Categories:** Technology brings 36.6% of sales. Click a category to see its sub-categories.
+
+Screenshots: see the [images](images) folder.
+
+## SQL queries
+All queries are in the [SQL_bussiness](SQL_bussiness) folder. They cover:
+- Sales by category with % of total
+- Region sales, orders and average order value
+- Top 10 customers
+- Shipping days per ship mode
+- Yearly growth with LAG
+- Top 3 sub-categories per category
+- Monthly running total
+- Loyal customers (ordered in all 4 years)
+- States above average sales
+- Customers who bought in 2017 but not in 2018
+- Products sold in all 4 regions
+
+## Python
+The notebook is in the [notebook](notebook) folder. Key results are saved in [data/kpis.txt](data/kpis.txt).
+
+## How to run
+1. Clone the repository.
+2. Open the notebook in the `notebook` folder and run all cells. The paths are relative, so keep the folder structure as it is.
+3. Open the workbook from the `Tableu` folder in Tableau Public (free).
